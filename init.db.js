@@ -6,10 +6,10 @@ const mongoose = require("mongoose")
  */
 module.exports = () => {
 	mongoose
-		.connect("mongodb+srv://cluster0.zcf6l.mongodb.net", {
-			user: "dilshann",
-			pass: "Nima@1989",
-			dbName: "productService",
+		.connect(process.env.DATABASE_URI, {
+			user: process.env.DATABASE_USERNAME,
+			pass: process.env.DATABASE_PASSWORD,
+			dbName: process.env.DATABASE_NAME,
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 			useFindAndModify: false,
