@@ -1,3 +1,9 @@
+/*
+ * @Author: Dilshan Niroda
+ * @Date: 2021-06-13 15:33:13
+ * @Last Modified by:   Dilshan Niroda
+ * @Last Modified time: 2021-06-13 15:33:13
+ */
 class APIError {
 	constructor(code, message) {
 		this.code = code

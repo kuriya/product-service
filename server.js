@@ -1,3 +1,9 @@
+/*
+ * @Author: Dilshan Niroda
+ * @Date: 2021-06-13 15:32:28
+ * @Last Modified by:   Dilshan Niroda
+ * @Last Modified time: 2021-06-13 15:32:28
+ */
 const express = require("express")
 const mongoose = require("mongoose")
 const productRouter = require("./routes/product.route")

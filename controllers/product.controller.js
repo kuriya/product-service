@@ -1,3 +1,10 @@
+/*
+ * @Author: Dilshan Niroda
+ * @Date: 2021-06-13 15:32:21
+ * @Last Modified by:   Dilshan Niroda
+ * @Last Modified time: 2021-06-13 15:32:21
+ */
+
 const Product = require("../models/product.model")
 const APIError = require("../erros/api.error")
 

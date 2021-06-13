@@ -1,3 +1,9 @@
+/*
+ * @Author: Dilshan Niroda
+ * @Date: 2021-06-13 15:32:58
+ * @Last Modified by:   Dilshan Niroda
+ * @Last Modified time: 2021-06-13 15:32:58
+ */
 const express = require("express")
 const router = express.Router()
 const productController = require("../controllers/product.controller")
