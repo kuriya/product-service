@@ -4,7 +4,12 @@
 	"description": "Product Service",
 	"main": "server.js",
 	"scripts": {
-		"start": "nodemon server.js",
+		"start": "NODE_ENV=local nodemon server.js",
+		"start-dev": "NODE_ENV=dev nodemon server.js",
+		"start-qa": "NODE_ENV=qa nodemon server.js",
+		"start-stg": "NODE_ENV=stg nodemon server.js",
+		"start-nft": "NODE_ENV=nft nodemon server.js",
+		"start-prod": "NODE_ENV=prod nodemon server.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Dilshan Niroda",
